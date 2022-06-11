@@ -1,29 +1,26 @@
-/*
-CEFET-MG ||| INFO-2 ||| dd/MM/2022
-Alunos: Victor Gabriel e Nicole Ferreira
-
-Lista 2 de LLTP1 - Atividade 1
-Resumo do Código:
-    Através de ponteiros:
-        - Armazena e imprime valores num vetor de ponteiro.
-*/
-
 #include <stdio.h>
 
-#define TAMANHO 5
+#define tam 6
 
-int main()
-{
+int main(){
 
-    int var1[TAMANHO];
-    int *pVar1 = var1;
+    int vetor[tam];
+    int *pVetor = vetor;
 
-    for (int i = 0; i < TAMANHO; i++){
-        pVar1[i] = &var1[i];
+    for (int i = 0; i < tam; i++){
+        printf("Digite um valor:\n");
+        scanf("%d", pVetor);
+
+        printf("\n\n --- Posição %d ---\n", i);
+
+        printf("Valor da Posicao pvetor[%d]: %d\n", i, *pVetor);
+
+        printf("Endereco da Posicao pvetor[%d]: %p\n", i, &pVetor);
+
+        printf("\n");
+
+        pVetor++;
     }
-
-    printf("\n"); //Pula uma linha
-    
 
     return 0;
 }

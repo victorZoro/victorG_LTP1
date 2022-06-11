@@ -3,7 +3,7 @@
 
     - Segunda lista de atividades disponibilizada pela professora Kattiana.
     - Nº de Exercícios: 5
-    - Lista completa ❌
+    - Lista completa ✅ (Exceto pela 5)
 
     Assunto: Ponteiros e Vetores
 
