@@ -28,7 +28,7 @@ Atividades e Trabalhos de Linguagem e Técnicas de Programação II.
 - **LP I:** O conteúdo das atividades de LP I conferem a manipulação de ponteiros e listas encadeadas em C++.
   
 
-**LP II:** O conteúdo das atividades e trabalhos práticos de LP II conferem a linguagem de programação Java e o paradigma de programação orientada a objeto.
+- **LP II:** O conteúdo das atividades e trabalhos práticos de LP II conferem a linguagem de programação Java e o paradigma de programação orientada a objeto.
 
 ---
 
